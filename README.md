@@ -4,6 +4,10 @@
 
 This project investigates and compares four distinct strategies for adapting a 3D U-Net model for multi-organ segmentation from a source domain of CT scans to a target domain of MRI scans, particularly in low-data scenarios. The methodologies evaluated are: **1)** a baseline approach of training from scratch on limited target data, **2)** fine-tuning a pre-trained source model, **3)** Domain-Adversarial Neural Networks (DANN), and **4)** an Unsupervised Domain Adaptation (UDA) method using multi-level feature alignment. The performance of each strategy is systematically evaluated across various quantities of available target data, and results are benchmarked on both in-domain (AMOS) and out-of-domain (CHAOS) test sets.
 
+<p align="center">
+  <img src="images/segmentations.png" alt="Workflow overview" width="600"/>
+</p>
+
 ---
 
 ## Project Structure

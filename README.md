@@ -1,6 +1,16 @@
 # A Comparative Study of Domain Adaptation Strategies for 3D Medical Image Segmentation
 
 <p align="center">
+  <img src="https://img.shields.io/badge/Methodology-Domain%20Adaptation-red" alt="Domain Adaptation">
+  <img src="https://img.shields.io/badge/Task-3D%20Segmentation-blue" alt="3D Segmentation">
+  <img src="https://img.shields.io/badge/Model-3D%20U--Net-purple" alt="3D U-Net">
+  <img src="https://img.shields.io/badge/Framework-PyTorch-orange" alt="PyTorch">
+  <img src="https://img.shields.io/badge/Library-MONAI-darkgreen" alt="MONAI">
+  <img src="https://img.shields.io/badge/Source%20Domain-CT-informational" alt="Source Domain CT">
+  <img src="https://img.shields.io/badge/Target%20Domain-MRI-informational" alt="Target Domain MRI">
+</p>
+
+<p align="center">
   <img src="images/prediction_MRI_AMOS_test_set_1(2).png" alt="3D U-Net Architecture" width="1000"/>
 </p>
 
